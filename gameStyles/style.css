@@ -57,5 +57,16 @@ nav li a{
   width: 650px;
   height: 300px;
   padding-left: 50px;
- 
+}
+.funny-image{
+  width: 200px;
+  height: 250px;
+  margin-top: 20px;
+  padding-inline: 20px;
+}
+.funny-image-titel{
+  text-align: center;
+}
+.funny-image-item{
+  gap: 100px;
 }
