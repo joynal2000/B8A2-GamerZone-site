@@ -40,3 +40,22 @@ nav li a{
  width: 500px;
  height: 400px;
 }
+.gramer{
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 100px;
+  justify-content: center;
+  margin: 40px 40px;
+  align-items: center;
+
+}
+.gramer-title{
+  text-align-last: right;
+  padding-right: 100px;
+}
+.gramer-image{
+  width: 650px;
+  height: 300px;
+  padding-left: 50px;
+ 
+}
