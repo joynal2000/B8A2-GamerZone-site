@@ -15,6 +15,7 @@ nav{
   justify-content: space-between;
   align-items: center;
   margin: 40px 240px;
+  
 }
 nav> ul{
   display: flex;
@@ -52,6 +53,7 @@ nav li a{
 .gramer-title{
   text-align-last: right;
   padding-right: 100px;
+  margin-top: 20px;
 }
 .gramer-image{
   width: 650px;
@@ -69,4 +71,24 @@ nav li a{
 }
 .funny-image-item{
   gap: 100px;
+}
+/* play Instantly style here */
+.play-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.play-image{
+  width: 400px;
+  height: 400px;
+  margin-top: 100px;
+  
+}
+.dorimon-image{
+  width: 200px;
+  height: 200px;
+  border: white;
+  border-radius: 5px;
+  border-radius: 8px;
 }
