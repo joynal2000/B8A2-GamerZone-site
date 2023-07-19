@@ -92,3 +92,20 @@ nav li a{
   border-radius: 5px;
   border-radius: 8px;
 }
+/*action game section style here */
+.action-games{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  /*
+  flex-wrap: wrap;*/
+}
+.action-games1{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.action-games-title{
+  padding-left: 10px;
+  padding-right: 10px;
+}
