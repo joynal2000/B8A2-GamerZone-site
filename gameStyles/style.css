@@ -1,7 +1,7 @@
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@500;600;700;800&display=swap');
 </style>
-*{
+body{
   font-family: 'Open Sans', sans-serif;
   font-family: 'Work Sans', sans-serif;
 }
@@ -161,4 +161,53 @@ ul{
   text-align: center;
   color: rgba(255, 255, 255, 0.60);
  }
+/* small divice responsive */
+@media screen and (max-width: 576px) {
+  header{
+    padding: 20px;
+    flex-direction: column;
+  }
+  nav{
+    flex-direction: column;
+  }
+  .nav-header , .banner{
+    flex-direction: column;
+  }
+  nav> ul , .play-container{
+    flex-direction: column;
+  }
+  .social-image , ul , .gramer{
+    flex-direction: column;
+  }
+  .social-image{
+    padding: 20px;
+    margin-top: 50px;
+  }
+  .footer-header , .action-games{
+    flex-direction: column;
+  }
+}
+/* Tablet or medium divice style */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  header{
+    padding: 20px;
+    flex-direction: column;
+  }
+  nav{
+    flex-direction: column;
+  }
+  .nav-header , .banner{
+    flex-direction: column;
+  }
+  nav> ul , .play-container{
+    flex-direction: column;
+  }
+  .social-image , ul , .gramer{
+    flex-direction: column;
+  }
+  .footer-header , .action-games{
+    flex-direction: column;
+  }
+}
+
  
