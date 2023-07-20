@@ -5,10 +5,17 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-family: 'Work Sans', sans-serif;
 }
+
 .nav-header{
   display: flex;
   font-weight: 40px;
   font-size: 700;
+  align-items: center;
+}
+.nav-title{
+  margin-left: 10px;
+  font-size: 32px;
+  color: #0B0223;
 }
 nav{
   display: flex;
@@ -48,6 +55,7 @@ nav li a{
   align-items: center;
   gap: 100px;
 }
+
 .banner-image{
  width: 500px;
  height: 400px;
@@ -101,6 +109,13 @@ nav li a{
   margin-top: 20px;
   padding-inline: 20px;
 }
+.funny-image3{
+  width: 200px;
+  height: 250px;
+  margin-top: 20px;
+  padding-inline: 20px;
+  cursor: pointer;
+}
 .funny-image-titel{
   text-align: center;
 }
@@ -135,29 +150,33 @@ nav li a{
   display: flex;
   justify-content: center;
   margin-top: 50px; 
-}
+   gap: 30px;
+   align-items: center;
+   color: #534C64;
+   }
 .action-games1{
   display: flex;
   justify-content: center;
   margin-top: 50px;
-
+  gap: 30px;
+  align-items: center;
+}
+.action-games-style:hover{
+  border: 1px solid #FF42A5;
+  border-radius: 10px;
+  color: #FF42A5;
+  cursor: pointer;
+  
 }
 .action-games img{
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  margin-right: 12px; 
 }
- .action-games-title:hover{
-  border: 1px solid #FF61B3;
-  border-radius: 30px;
-  padding: 15px 10px;
-  color: #FF98CE;
-}
-
 .action-games1 img{
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
 }
 .action-games-title{
   padding-left: 10px;
@@ -221,7 +240,7 @@ ul{
   align-items: center;
  }
  .footer-title{
-  color:#FFFFFF;
+  color:#fff;
   margin-left: 10px;
   font-size: 32px;
  }
@@ -262,6 +281,9 @@ ul{
   .footer-header , .action-games{
     flex-direction: column;
   }
+  .action-games1{
+    flex-direction: column;
+  }
 }
 /* Tablet or medium divice style */
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -282,6 +304,9 @@ ul{
     flex-direction: column;
   }
   .footer-header , .action-games{
+    flex-direction: column;
+  }
+  .action-games1{
     flex-direction: column;
   }
 }
