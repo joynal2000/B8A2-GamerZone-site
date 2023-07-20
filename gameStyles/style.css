@@ -28,14 +28,17 @@ nav li a{
   text-decoration: none;
 }
 /*main section style here */
+.h3-title{
+  font-size: 30px;
+}
 .description{
   color: #534C64;
 }
 .goat-style{
   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 45px;
   font-weight: 800px; 
 }
@@ -85,6 +88,12 @@ background-clip: text;
   width: 650px;
   height: 300px;
   padding-left: 50px;
+}
+.Funny{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .funny-image{
   width: 200px;
